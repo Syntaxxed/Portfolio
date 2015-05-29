@@ -104,4 +104,15 @@ td {
 	text-align:center;
 }
 
+.icons img{
+	width: 3em;
+}
+
+.icons a:hover {
+	-webkit-filter: grayscale(100%);
+	/*-moz-filter: grayscale(100%); */
+	-o-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+}
+
 /* https://css-tricks.com/seamless-responsive-photo-grid/ */
