@@ -58,6 +58,21 @@ else
   }
 });
 
+
+ $(".navtop").hide(); // hide on page load 
+
+  $(window).bind('scroll', function(){
+    if($(this).scrollTop() > 200) { // show after 200 px of user scrolling
+      $(".navtop").fadeIn(300);
+   }
+
+   else {
+    $(".navtop").fadeOut(300);
+   }
+
+  }); 
+
+
 $(document).ready(main);
 
 /* http://stackoverflow.com/questions/8536653/onclick-on-a-image-to-navigate-to-another-page-using-javascript */
