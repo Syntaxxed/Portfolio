@@ -64,8 +64,8 @@ header img{
 .fotogrid {
 	padding-top: 10em;
 	min-height: initial;
-	line-height: 0
-
+	line-height: 0;
+/*tralala*/
    
   -webkit-column-count: 5;
   -webkit-column-gap:   0px;
