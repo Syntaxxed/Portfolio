@@ -59,10 +59,10 @@ else
 });
 
 
- $(".navtop").hide(); // hide on page load 
+ $(".navtop").hide();  
 
   $(window).bind('scroll', function(){
-    if($(this).scrollTop() > 200) { // show after 200 px of user scrolling
+    if($(this).scrollTop() > 200) { 
       $(".navtop").fadeIn(300);
    }
 
