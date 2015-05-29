@@ -70,4 +70,8 @@ header img{
 	display: none;
 }
 
+#logo {
+	width: 70%;
+}
+
 /* https://css-tricks.com/seamless-responsive-photo-grid/ */
