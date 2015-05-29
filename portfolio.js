@@ -25,7 +25,7 @@ $(window).scroll(function(){
         $('#logo').addClass('hidden');
 
         $('nav').addClass('scrollclassnav');
-        $('header').css("text-align", "center");
+        $('header').addClass('center')
 
         /*$('nav').stop().animate({
         	width: '90em',
@@ -53,6 +53,7 @@ else
         $('#logo').removeClass('hidden');
 
         $('nav').removeClass('scrollclassnav');
+        $('header').removeClass('center')
       }  
   }
 });
