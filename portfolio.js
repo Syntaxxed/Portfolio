@@ -19,7 +19,7 @@ $(window).scroll(function(){
     {
         $('.topbar').data('size','small');
         $('.topbar').stop().animate({
-            height:'12%'
+            height:'6em'
         },600);
         
         $('#logo').addClass('hidden');
@@ -47,7 +47,7 @@ else
       {
         $('.topbar').data('size','big');
         $('.topbar').stop().animate({
-            height:'30%'
+            height:'10em'
         },600);
 
         $('#logo').removeClass('hidden');
