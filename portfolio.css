@@ -6,7 +6,7 @@ body {
 /* grijs: #575756; */
 
 @font-face {
-    font-family: steelfis;
+    font-family: "steelfis";
     src: url(steelfis.ttf);
 }
 
