@@ -5,6 +5,12 @@ body {
 
 /* grijs: #575756; */
 
+@font-face {
+    font-family: europeunderground;
+    src: url(europeundergroundblack.ttf);
+}
+
+
 nav {
 	width: 60em;
 	height: 3em;
@@ -23,7 +29,7 @@ nav {
 
 nav a {
 	text-decoration: none;
-	font: 2em "Francois One";
+	font: 2em "europeunderground";
 	color: #36A9E0;
 	padding: 0em 0.5em 0em 0.5em;
 	text-transform: uppercase;
