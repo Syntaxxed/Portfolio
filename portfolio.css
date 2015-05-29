@@ -63,7 +63,9 @@ header img{
 
 .fotogrid {
 	padding-top: 10em;
+	min-height: initial;
 	line-height: 0
+
    
   -webkit-column-count: 5;
   -webkit-column-gap:   0px;
