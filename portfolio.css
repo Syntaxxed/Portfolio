@@ -74,12 +74,13 @@ header img{
   column-gap:           0px;  
 }
 
-.hidden {
-	display: none;
-}
-
 #logo {
 	width: 15%;
+}
+
+
+.hidden {
+	display: none;
 }
 
 .center {
