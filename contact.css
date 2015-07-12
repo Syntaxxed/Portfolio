@@ -67,7 +67,7 @@ header img{
 	margin-left: 5em;
 }
 
-.fotogrid a {
+/*.fotogrid a {
 	text-decoration: none;
 	color: #36A9E0;
 	font-weight: bold;
@@ -75,7 +75,7 @@ header img{
 
 .fotogrid a:hover {
 	text-transform: uppercase;
-}
+}*/
 
 h1 {
 	font: 1.6em "Francois One";
