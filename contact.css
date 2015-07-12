@@ -57,12 +57,13 @@ header img{
 }
 
 .fotogrid img {
-	width: 80%;
-	padding: 0em 0.5em 0.5em 0em;
+	width: 100%;
+	/*width: 80%;
+	padding: 0em 0.5em 0.5em 0em;*/
 }
 
 .fotogrid {
-	padding-top: 15em;
+	padding-top: 10em;
 	margin-left: 5em;
 }
 
