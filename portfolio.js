@@ -1,6 +1,16 @@
 var main = function() {
 "use strict"
 
+$(".fancybox").fancybox({
+    helpers : {
+        overlay : {
+            css : {
+                'background' : 'rgba(58, 42, 45, 0.95)'
+            }
+        }
+    }
+});
+
  $('img.foto').click(function() {
             window.location.href = this.id + '.html';
         });
