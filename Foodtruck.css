@@ -34,7 +34,7 @@ nav a {
 	font: 2em "ptsansnarrow";
 	color: #36A9E0;
 	font-weight: bold;
-	margin: 0em 0.5em 0em 0.5em;
+	padding: 0em 0.5em 0em 0.5em;
 	text-transform: uppercase;
 
 }
